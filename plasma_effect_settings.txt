@@ -1,0 +1,28 @@
+# Plasma Effect Configuration
+
+# Window settings
+WINDOW_WIDTH=1200  # Window width in pixels
+WINDOW_HEIGHT=800  # Window height in pixels
+FRAME_RATE=120  # Target frames per second
+
+# Rendering settings
+SPECULAR=True  # Enable specular highlights
+SCALE=1.0  # Spatial scale of the plasma pattern
+TIME_SCALE=0.02  # Animation speed (lower = slower)
+RENDER_SCALE=0.25  # Internal render resolution scale
+
+# Palette selection
+# Options: warm, cool, lava, neon
+PALETTE=warm
+
+# Phase preset selection
+# Options: default, spiral, pulsing, layered
+PHASE_PRESET=default
+
+# FPS overlay
+SHOW_FPS=False  # Display FPS and frame time in corner
+
+# Video recording
+RECORD=False  # Enable video recording
+RECORD_DURATION=10.0  # Recording duration in seconds
+RECORD_OUTPUT=plasma_output.mp4  # Output video file path
