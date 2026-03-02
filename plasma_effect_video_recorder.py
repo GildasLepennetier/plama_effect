@@ -2,9 +2,9 @@
 Video recording utility for plasma effect animation.
 """
 
+import os
 import cv2
 import numpy as np
-import os
 from typing import Optional
 
 

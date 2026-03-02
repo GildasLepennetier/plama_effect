@@ -1,0 +1,15 @@
+[project]
+name = "plama_effect"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Gildas", email = "gildas@lepennetier.com"},
+]
+dependencies = ["numpy>=2.4.2", "python-dotenv>=1.2.2", "pygame>=2.6.1", "opencv-python>=4.13.0.92"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
